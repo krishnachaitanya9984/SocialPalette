@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.widget.socialpalette.MyActivityView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<LinearLayout android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+    
+   <EditText android:id="@+id/messageBox"
+   			
+   			android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:maxLines="5"
+    		android:scrollbars="vertical"
+    		android:hint="what's on your mind?" 
+    		 /> 		
+    		
+     <LinearLayout android:id="@+id/LinearLayout" android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		android:layout_marginTop = "50px">		
+    		
+    		<ImageView android:id="@+id/fbImage"
+    		android:layout_height="wrap_content"
+	    	android:layout_width="wrap_content" 
+	    	android:src="@drawable/facebook_share_button"/>
+	    
+	    
+	   		<ImageView android:id="@+id/twitterImage"
+    		android:layout_height="wrap_content"
+	   		android:layout_width="wrap_content" 
+	   		android:layout_marginLeft="20px"
+	    	android:src="@drawable/tweet_this"/>
+	    	
+	    	<ImageView android:id="@+id/speakBtn"
+    		android:layout_height="wrap_content"
+	   		android:layout_width="wrap_content" 
+	   		android:layout_marginLeft="20px"
+	    	android:src="@drawable/microphone"/>
+	    
+	    </LinearLayout>
+	    
+	     
+
+</LinearLayout>
+</com.widget.socialpalette.MyActivityView>

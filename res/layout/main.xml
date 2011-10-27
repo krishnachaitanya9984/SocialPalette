@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400px"
+	android:orientation="horizontal"
+
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">    
+    
+   <LinearLayout android:layout_height="wrap_content"
+	    				android:layout_width="50px"></LinearLayout>
+	    				
+	    <Button android:id="@+id/mywallBtn"
+	    android:text="@string/mywall"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:gravity="center"	       
+	    android:background="@drawable/inputfield"
+	    android:textColor="@android:color/white"/>
+	   
+    <FrameLayout android:layout_height="wrap_content"
+	    		 android:layout_width="wrap_content"
+	    		 android:layout_marginTop="3px"
+	    		 android:layout_marginLeft="-370px">
+	    				 
+	     <ImageView android:id="@+id/myImage"
+    	android:layout_height="wrap_content"
+	    android:layout_width="wrap_content" 
+	    android:src="@drawable/facebook_twitter_logo"	    
+	    /> 
+	    				
+	   
+	</FrameLayout>
+	     
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SocialPalette</string>
+    <string name="mywall">whats on your mind?</string>
+    <string name="twittermaxcharacter">Your message has exceeded 140 characters</string>
+    <string name="twittersuccess">Your message has got successfully posted on Twitter</string>
+    <string name="facebooksuccess">Your message has got successfully posted on Facebook</string>
+    <string name="logout">You have logout from your account successfully</string>
+    <string name="signout">You have to signout from here</string>
+    <string name="alreadylogout">You have already logout from your account</string>   
+    <string name="error">Please Enter message to post</string>
+    <string name="duplicate">Status is a duplicate.Please enter another message</string>
+    <string name="logout_menu">Logout</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+</resources>
